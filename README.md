@@ -1,7 +1,7 @@
 
-# Pre-work - *Name of App Here*
+# Pre-work - *Tip Calculator*
 
-**Name of your app** is a tip calculator application for iOS.
+** Tip Calculator ** is a tip calculator application for iOS.
 
 Submitted by: Kathy Yin
 
@@ -24,12 +24,7 @@ The following **additional** features are going to be implemented:
 - [] Keep an note on the custom calendar 
 - [] pay your friend 
 
-## Video Walkthrough 
-
-Here's a walkthrough of implemented user stories:
-
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
+### Project gif demo
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ### Package management
