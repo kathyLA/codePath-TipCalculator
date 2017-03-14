@@ -15,6 +15,10 @@
 		1EE69FEB1E75BC890088B131 /* tipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE69FEA1E75BC890088B131 /* tipCalculatorTests.swift */; };
 		1EE69FF61E75BC890088B131 /* tipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE69FF51E75BC890088B131 /* tipCalculatorUITests.swift */; };
 		1EE6A0041E75CB8B0088B131 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6A0031E75CB8B0088B131 /* SettingViewController.swift */; };
+		1EE6A0081E7690920088B131 /* TipServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6A0071E7690920088B131 /* TipServiceView.swift */; };
+		1EE6A00C1E76930F0088B131 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE6A00A1E7692C80088B131 /* SnapKit.framework */; };
+		1EE6A00D1E76930F0088B131 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE6A00A1E7692C80088B131 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		1EE6A0701E7712940088B131 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6A06F1E7712940088B131 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1EE6A00E1E76930F0088B131 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1EE6A00D1E76930F0088B131 /* SnapKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		1EE69FD21E75BC890088B131 /* tipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE69FD51E75BC890088B131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,9 @@
 		1EE69FF51E75BC890088B131 /* tipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipCalculatorUITests.swift; sourceTree = "<group>"; };
 		1EE69FF71E75BC890088B131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EE6A0031E75CB8B0088B131 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		1EE6A0071E7690920088B131 /* TipServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipServiceView.swift; sourceTree = "<group>"; };
+		1EE6A00A1E7692C80088B131 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
+		1EE6A06F1E7712940088B131 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE6A00C1E76930F0088B131 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +121,7 @@
 		1EE69FD41E75BC890088B131 /* tipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				1EE6A0091E7692790088B131 /* frameWork */,
 				1EE69FD51E75BC890088B131 /* AppDelegate.swift */,
 				1EE69FD71E75BC890088B131 /* ViewController.swift */,
 				1EE69FD91E75BC890088B131 /* Main.storyboard */,
@@ -106,6 +129,8 @@
 				1EE69FDC1E75BC890088B131 /* Assets.xcassets */,
 				1EE69FDE1E75BC890088B131 /* LaunchScreen.storyboard */,
 				1EE69FE11E75BC890088B131 /* Info.plist */,
+				1EE6A0071E7690920088B131 /* TipServiceView.swift */,
+				1EE6A06F1E7712940088B131 /* Theme.swift */,
 			);
 			path = tipCalculator;
 			sourceTree = "<group>";
@@ -128,6 +153,14 @@
 			path = tipCalculatorUITests;
 			sourceTree = "<group>";
 		};
+		1EE6A0091E7692790088B131 /* frameWork */ = {
+			isa = PBXGroup;
+			children = (
+				1EE6A00A1E7692C80088B131 /* SnapKit.framework */,
+			);
+			name = frameWork;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,6 +171,7 @@
 				1EE69FCE1E75BC890088B131 /* Sources */,
 				1EE69FCF1E75BC890088B131 /* Frameworks */,
 				1EE69FD01E75BC890088B131 /* Resources */,
+				1EE6A00E1E76930F0088B131 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -265,7 +299,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EE6A0081E7690920088B131 /* TipServiceView.swift in Sources */,
 				1EE69FD81E75BC890088B131 /* ViewController.swift in Sources */,
+				1EE6A0701E7712940088B131 /* Theme.swift in Sources */,
 				1EE69FD61E75BC890088B131 /* AppDelegate.swift in Sources */,
 				1EE6A0041E75CB8B0088B131 /* SettingViewController.swift in Sources */,
 			);
@@ -418,6 +454,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V4YF8V8WZ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = tipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kathy.tipCalculator;
@@ -431,6 +471,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V4YF8V8WZ6;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = tipCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kathy.tipCalculator;
@@ -516,6 +560,7 @@
 				1EE69FFC1E75BC890088B131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EE69FFD1E75BC890088B131 /* Build configuration list for PBXNativeTarget "tipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +569,7 @@
 				1EE69FFF1E75BC890088B131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EE6A0001E75BC890088B131 /* Build configuration list for PBXNativeTarget "tipCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +578,7 @@
 				1EE6A0021E75BC890088B131 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        self.window?.tintColor = Theme.blue900
+        let naviFont = UIFont(name:"HelveticaNeue-Medium", size: 20)
+        let attributes: [String : Any] = [NSFontAttributeName: naviFont, NSForegroundColorAttributeName: Theme.defaultTextColor,NSBackgroundColorAttributeName: UIColor.clear, NSKernAttributeName: CGFloat(0.8)]
+        UINavigationBar.appearance().titleTextAttributes = attributes
+
         return true
     }
 
