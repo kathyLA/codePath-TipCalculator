@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		1EE69FD61E75BC890088B131 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE69FD51E75BC890088B131 /* AppDelegate.swift */; };
-		1EE69FD81E75BC890088B131 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE69FD71E75BC890088B131 /* ViewController.swift */; };
+		1EE69FD81E75BC890088B131 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE69FD71E75BC890088B131 /* TipViewController.swift */; };
 		1EE69FDB1E75BC890088B131 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE69FD91E75BC890088B131 /* Main.storyboard */; };
 		1EE69FDD1E75BC890088B131 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EE69FDC1E75BC890088B131 /* Assets.xcassets */; };
 		1EE69FE01E75BC890088B131 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EE69FDE1E75BC890088B131 /* LaunchScreen.storyboard */; };
 		1EE69FEB1E75BC890088B131 /* tipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE69FEA1E75BC890088B131 /* tipCalculatorTests.swift */; };
 		1EE69FF61E75BC890088B131 /* tipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE69FF51E75BC890088B131 /* tipCalculatorUITests.swift */; };
 		1EE6A0041E75CB8B0088B131 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6A0031E75CB8B0088B131 /* SettingViewController.swift */; };
-		1EE6A0081E7690920088B131 /* TipServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6A0071E7690920088B131 /* TipServiceView.swift */; };
 		1EE6A00C1E76930F0088B131 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE6A00A1E7692C80088B131 /* SnapKit.framework */; };
 		1EE6A00D1E76930F0088B131 /* SnapKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE6A00A1E7692C80088B131 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1EE6A0701E7712940088B131 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE6A06F1E7712940088B131 /* Theme.swift */; };
@@ -55,7 +54,7 @@
 /* Begin PBXFileReference section */
 		1EE69FD21E75BC890088B131 /* tipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EE69FD51E75BC890088B131 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1EE69FD71E75BC890088B131 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1EE69FD71E75BC890088B131 /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		1EE69FDA1E75BC890088B131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1EE69FDC1E75BC890088B131 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1EE69FDF1E75BC890088B131 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -67,7 +66,6 @@
 		1EE69FF51E75BC890088B131 /* tipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipCalculatorUITests.swift; sourceTree = "<group>"; };
 		1EE69FF71E75BC890088B131 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EE6A0031E75CB8B0088B131 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
-		1EE6A0071E7690920088B131 /* TipServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipServiceView.swift; sourceTree = "<group>"; };
 		1EE6A00A1E7692C80088B131 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
 		1EE6A06F1E7712940088B131 /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,13 +121,12 @@
 			children = (
 				1EE6A0091E7692790088B131 /* frameWork */,
 				1EE69FD51E75BC890088B131 /* AppDelegate.swift */,
-				1EE69FD71E75BC890088B131 /* ViewController.swift */,
+				1EE69FD71E75BC890088B131 /* TipViewController.swift */,
 				1EE69FD91E75BC890088B131 /* Main.storyboard */,
 				1EE6A0031E75CB8B0088B131 /* SettingViewController.swift */,
 				1EE69FDC1E75BC890088B131 /* Assets.xcassets */,
 				1EE69FDE1E75BC890088B131 /* LaunchScreen.storyboard */,
 				1EE69FE11E75BC890088B131 /* Info.plist */,
-				1EE6A0071E7690920088B131 /* TipServiceView.swift */,
 				1EE6A06F1E7712940088B131 /* Theme.swift */,
 			);
 			path = tipCalculator;
@@ -299,8 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE6A0081E7690920088B131 /* TipServiceView.swift in Sources */,
-				1EE69FD81E75BC890088B131 /* ViewController.swift in Sources */,
+				1EE69FD81E75BC890088B131 /* TipViewController.swift in Sources */,
 				1EE6A0701E7712940088B131 /* Theme.swift in Sources */,
 				1EE69FD61E75BC890088B131 /* AppDelegate.swift in Sources */,
 				1EE6A0041E75CB8B0088B131 /* SettingViewController.swift in Sources */,

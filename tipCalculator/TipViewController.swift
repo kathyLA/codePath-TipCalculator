@@ -8,7 +8,7 @@
 
 import UIKit
 import SnapKit
-class ViewController: UIViewController {
+class TipViewController: UIViewController {
     var topContentView: UIStackView = UIStackView()
     var bottomContentView: UIStackView = UIStackView()
     var billHintBackgroundView: UIView = UIView()
